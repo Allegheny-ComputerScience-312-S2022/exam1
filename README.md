@@ -12,7 +12,8 @@ This is your exam 1. This is not a group project; please work individually. Onli
 
 You are to follow the exam file (`writing/exam1.md`) to complete the questions. In one of the problems, you will be asked to submit source material in the `src/` directory.  
 
-Best of luck to you. Dr. BONHAM-CARTER
+Best of luck to you. 
+Dr. BONHAM-CARTER
 
 
 #### Misc
