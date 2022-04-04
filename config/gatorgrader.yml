@@ -1,0 +1,28 @@
+---
+name: cmpsc-312-Spring-2022-lab1
+break: true
+indent: 4
+---
+
+# --> check the technical writing
+writing/exam1.md:
+    ConfirmFileExists
+    MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+
+src/builder_articleBD.txt:
+    ConfirmFileExists
+    MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+    MatchFileFragment --fragment "Add Your Account Name Here" --count 0 --exact
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+
+src/data/authorData.csv:
+    ConfirmFileExists
+src/data/titleData.csv:
+    ConfirmFileExists
+src/data/journalData.csv:
+    ConfirmFileExists
+
+
+# --> check the number of commits beyond a threshold
+CountCommits --count 3
